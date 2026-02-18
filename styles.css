@@ -8,7 +8,7 @@
 .roboto-medium {
 font-family: "Roboto", sans-serif;
 font-optical-sizing: auto;
-font-weight: 600;
+font-weight: 450;
 font-style: normal;
 font-variation-settings:
     "wdth" 100;
@@ -100,3 +100,42 @@ main {
     padding: 8px 25px;
 }
 
+.information {
+    padding: 70px 200px;
+    height: 50dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-title{
+    color: #1F2937;
+    font-size: 36px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.information-items {
+    flex: 2;
+    display: flex;
+}
+
+.information-items figure{
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-items img{
+    max-height: 170px;
+    border-radius: 20px;
+    margin: 8px 16px;
+    flex: 2;
+    border: #3882F6 4px solid;
+}
+
+.information-items figcaption{
+    padding: 0 30px;
+    flex: 1;
+    text-align: center;
+}
