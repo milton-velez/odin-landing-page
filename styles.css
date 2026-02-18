@@ -4,6 +4,15 @@
     box-sizing: content-box;
 }
 
+.roboto-quote {
+font-family: "Roboto", sans-serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: italic;
+font-variation-settings:
+    "wdth" 100;
+}
+
 
 .roboto-medium {
 font-family: "Roboto", sans-serif;
@@ -139,3 +148,22 @@ main {
     flex: 1;
     text-align: center;
 }
+
+.quote {
+    height: 50dvh;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 350px;
+}
+
+.phrase{
+    font-size: 36px;
+}
+
+.by{
+    align-self: flex-end;
+}
+
