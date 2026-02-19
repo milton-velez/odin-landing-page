@@ -167,3 +167,27 @@ main {
     align-self: flex-end;
 }
 
+.call-to-action {
+    color: white;
+    height: 40dvh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.container {
+    gap: 120px;
+    padding:  50px 200px;
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.container button{
+    font-size: 18px;
+    padding: 8px 40px;
+    background-color: inherit;
+    border: white 2px solid;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
