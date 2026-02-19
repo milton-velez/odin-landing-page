@@ -191,3 +191,12 @@ main {
     border-radius: 8px;
     color: #F9FAF8;
 }
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10dvh;
+    background-color:#1F2937 ;
+}
